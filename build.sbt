@@ -1,6 +1,10 @@
 import Dependencies._
 
 lazy val options = Seq(
+  "-language:postfixOps",
+  "-Ykind-projector",
+  "-Yexplicit-nulls",
+  "-source", "3.1",
   "-deprecation",
   "-encoding",
   "UTF-8",
